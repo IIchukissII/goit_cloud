@@ -137,8 +137,8 @@ sudo systemctl status nginx
 
 **📸 Скрін:**
 <!-- Вставте скрін тут -->
-![Nginx Installation](img/5_1.JPG)
-![Nginx Installation](img/5_2.JPG)
+![Nginx Installation](img/4_1.JPG)
+![Nginx Installation](img/4_2.JPG)
 
 **✅ Що має бути видно на скріні:**
 - Результат виконання команд встановлення
@@ -158,7 +158,8 @@ sudo systemctl status nginx
 
 **📸 Скрін:**
 <!-- Вставте скрін тут -->
-![Nginx Default Page](screenshots/06_nginx_page.png)
+![Nginx Default Page](img/5_1.JPG)
+![Nginx Default Page](img/5_2.JPG)
 
 **✅ Що має бути видно на скріні:**
 - Дефолтна сторінка Nginx
@@ -181,7 +182,7 @@ sudo systemctl status nginx
 
 **📸 Скрін:**
 <!-- Вставте скрін тут -->
-![Target Group](screenshots/07_target_group.png)
+![Target Group](img/6.JPG)
 
 **✅ Що має бути видно на скріні:**
 - Створена Target Group
@@ -203,7 +204,7 @@ sudo systemctl status nginx
 
 **📸 Скрін:**
 <!-- Вставте скрін тут -->
-![Application Load Balancer](screenshots/08_load_balancer.png)
+![Application Load Balancer](img/7.JPG)
 
 **✅ Що має бути видно на скріні:**
 - Створений ALB у стані "Active"
@@ -224,7 +225,7 @@ sudo systemctl status nginx
 
 **📸 Скрін:**
 <!-- Вставте скрін тут -->
-![ALB Webpage](screenshots/09_alb_webpage.png)
+![ALB Webpage](screenshots/(img/8.JPG)
 
 **✅ Що має бути видно на скріні:**
 - Сторінка Nginx, що завантажена через ALB
@@ -244,7 +245,7 @@ sudo systemctl status nginx
 
 **📸 Скрін:**
 <!-- Вставте скрін тут -->
-![Stopped Instances](screenshots/10_stopped_instances.png)
+![Stopped Instances](img/9.JPG)
 
 **✅ Що має бути видно на скріні:**
 - Обидва інстанси у стані "Stopped"
@@ -280,27 +281,6 @@ sudo systemctl status nginx
 
 ---
 
-## 📂 Структура файлів
-
-```
-aws-ec2-homework/
-├── README.md                          # Цей файл
-├── screenshots/                       # Папка зі скрінами
-│   ├── 01_ec2_instances.png           
-│   ├── 02_key_pairs.png               
-│   ├── 03_security_group.png          
-│   ├── 04_ssh_connection.png          
-│   ├── 05_nginx_installation.png      
-│   ├── 06_nginx_page.png              
-│   ├── 07_target_group.png            
-│   ├── 08_load_balancer.png           
-│   ├── 09_alb_webpage.png             
-│   └── 10_stopped_instances.png       
-└── commands.md                        # Додаткові команди (опціонально)
-```
-
----
-
 ## 🔧 Додаткові команди для перевірки
 
 <details>
@@ -329,7 +309,3 @@ sudo ss -tulpn
 </details>
 
 ---
-
-**📅 Дата завершення:** [Вказати дату]  
-**⏱️ Час виконання:** [Вказати час]  
-**💰 Витрати AWS:** $0.00 (Free Tier)
